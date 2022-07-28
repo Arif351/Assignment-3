@@ -163,8 +163,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title fw-semibold">Fullstack Web Development</h5>
                                     <p class="card-text">Learn core concepts of both the front end and backend
-                                        programming course.
-                                        Learn complete web development process</p>
+                                        programming course.</p>
                                     <h5 class="text-primary fw-semibold">Price: $30</h5>
                                 </div>
                             </div>
@@ -179,8 +178,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title fw-semibold">Motion Graphics</h5>
                                     <p class="card-text">Learn core concepts of both the front end and backend
-                                        Graphics course.
-                                        Learn complete web development process</p>
+                                        Graphics course.</p>
                                     <h5 class="text-primary fw-semibold">Price: $30</h5>
                                 </div>
                             </div>
@@ -196,7 +194,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title fw-semibold">Javascript Basic to advanced</h5>
                                     <p class="card-text">Learn Web Development online at your own pace. Start today and
-                                        improve your skills. Find the right instructor for you.</p>
+                                        improve your skills.</p>
                                     <h5 class="text-primary fw-semibold">Price: $35</h5>
                                 </div>
                             </div>
@@ -243,7 +241,7 @@
         <!------------------------ course cart end ---------------- -->
 
         <div class="d-grid gap-2 col-3 mx-auto my-5">
-            <button class="btn btn-primary" type="button">Button</button>
+            <button class="btn btn-primary" type="button">See more courses</button>
         </div>
         <!----------------------------------- working man start------------------------------- -->
 
@@ -290,14 +288,52 @@
                         land your next job.</p>
                 </div>
                 <div>
-                    <button type="button" class="btn btn-light">Register Now</button>
+                    <button type="button" class="btn btn-light" data-bs-target="#my-modal"
+                        data-bs-toggle="modal">Register
+                        Now</button>
+                    <!----------- registration form modal section start ---------------- -->
+                    <div class="container">
+                        <div class="modal fade" id="my-modal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title">Your Registration Form</h3>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="recipient-name" class="col-form-label">Name</label>
+                                                <input type="text" class="form-control" id="recipient-name">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="recipient-name" class="col-form-label">Email</label>
+                                                <input type="email" class="form-control" id="recipient-name">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="recipient-name" class="col-form-label">Phone</label>
+                                                <input type="number" class="form-control" id="recipient-name">
+                                            </div>
+                                        </form>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Register</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!----------- registration form modal section end ---------------- -->
                 </div>
             </div>
         </section>
+
+
         <!---------------------------- ready to join end ---------------------------- -->
     </main>
-
-
 
 
 
