@@ -21,3 +21,14 @@
     border-radius: 5px;
 
 }
+
+.fa-star,
+.fa-star-half-stroke {
+    color: gold;
+}
+
+.fa-envelope,
+.fa-facebook,
+.fa-telegram .fa-phone-flip {
+    color: white;
+}
